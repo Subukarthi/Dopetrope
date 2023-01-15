@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 200px;
+    text-align: center;
+    margin-top: 70px;
+}
+#header{
+    display: flex;
+    justify-content: center;
+}
+#header h2{
+    width: 200px;
+    background-color: white;
+    position: relative;
+    top: -15px;
+}
+h1{
+    font-weight: bolder;
+    
+}
+header a{
+    display: inline-block;
+    width: 100px;
+    text-decoration: none;
+    color: rgb(176,176,176);
+    padding: 10px;
+}
+#home{
+    background-color: rgb(213,35,73);
+    color: white;
+    border-radius: 5px;
+}
+header a:hover{
+    background-color:rgb(176,176,176,0.5);
+    color: white;
+    border-radius: 5px;
+}
+figure{
+    background-image: url("../IMAGES/gridassign1.jpg");
+    height: 450px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+figure div{
+    text-align: center;
+    color: white;
+    width: 600px;
+    height: 150px;
+    background-color:rgb(0,0,0,0.95) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+figure div article h1{
+    font-size: 40px;
+}
+figure div article p{
+    color:rgb(213,35,73);
+    font-size: 20px;
+}
+
+#article1{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+#article1 #logo{
+    background-color:rgb(213,35,73) ;
+    display: inline-block;
+    font-size: 100px;
+    padding: 30px;
+    color: white;
+}
+#article1 #content{
+    margin-top: 10px;
+line-height: 40px;
+text-align: center;
+}
+#article1 h2{
+    text-align: center;
+}
+#article1 p{
+    color:rgb(176,176,176) ;
+}
+#article2{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+#article2 #logo{
+    background-color:rgb(37,33,34) ;
+    display: inline-block;
+    font-size: 100px;
+    padding: 30px;
+    color: white;
+}
+#article2 #content{
+    margin-top: 20px;
+line-height: 40px;
+text-align: center;
+}
+#article2 h2{
+    text-align: center;
+}
+#article2 p{
+    color:rgb(176,176,176) ;
+}
+#article3{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+#article3 #logo{
+    background-color:rgb(130,122,124);
+    display: inline-block;
+    font-size: 100px;
+    padding: 30px;
+    color: white;
+}
+#article3 #content{
+    margin-top: 10px;
+line-height: 40px;
+text-align: center;
+}
+#article3 h2{
+    text-align: center;
+}
+#article3 p{
+    color:rgb(176,176,176) ;
+}
+#flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#links{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+#links a{
+    display: inline-block;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    width: 300px;
+    text-decoration: none;
+    padding: 15px;
+}
+#links #start{
+    background-color: rgb(213,35,73);
+    grid-column:2/3;
+   
+}
+#links #learn{
+    background-color:rgb(37,33,34) ;
+    grid-column:4/7 ;
+}
+#links #start:hover{
+    background-color: rgb(182, 56, 83);
+}
+#links #learn:hover{
+    background-color:rgb(63, 57, 58) ;
+}
+#Portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 600px;
+    padding:10px;
+    text-align: center;
+    line-height: 30px;
+}
+#Portfolio a{
+   text-decoration: none;
+   display: inline-block;
+   width: 300px;
+   background-color: rgb(37,33,34);
+   color: white;
+   font-size: 20px;
+   border-radius: 10px;
+   padding: 10px;
+}
+#Portfolio a:hover{
+background-color: rgb(48, 46, 46);
+}
+
+#header h2{
+    display: flex;
+    justify-content: center;
+}
+#header hr{
+    transform: rotate(180deg);
+}
+.article111 #link{
+    display: flex;
+    justify-content: space-evenly;
+}
+.article111 #link a{
+    display: inline-block;
+    width: 200px;
+    font-size: 18px;
+}
+#link a{
+    display: inline-block;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    width: 300px;
+    text-decoration: none;
+    padding: 10px;
+}
+#link #continue{
+    background-color:rgb(213,35,73) ;
+}
+#link #comments{
+    background-color:rgb(37,33,34) ;
+}
+#blog .article111{
+width: 575px;
+line-height: 30px;
+}
+#blog{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#link #continue:hover{
+    background-color: rgb(182, 56, 83);
+}
+#link #comments:hover{
+    background-color:rgb(63, 57, 58) ;
+}
